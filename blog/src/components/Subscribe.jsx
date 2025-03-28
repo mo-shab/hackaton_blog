@@ -2,7 +2,7 @@ import React from "react";
 
 const Subscribe = () => {
   return (
-    <section id="subscribe" className="bg-blue-500 text-white py-16 text-center">
+    <section id="subscribe" className="bg-blue-950 text-white py-16 text-center">
       <h3 className="text-3xl font-semibold">Stay Updated</h3>
       <p className="mt-2">Subscribe to our newsletter for the latest posts.</p>
       <div className="mt-4">
