@@ -8,19 +8,17 @@ import About from "../components/About";
 
 const Home = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-gray-100 text-gray-900">
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <Hero />
-      <FeaturedPosts />
-      
-      {/* Pushes the footer to the bottom */}
-      <div className="flex-grow"></div>
-      <About />
-      <Subscribe />
+      <div className="pt-16"> {/* Prevents content from going under navbar */}
+        <Hero />
+        <About />
+        <FeaturedPosts />
+        <Subscribe />
+      </div>
       <Footer />
     </div>
   );
 };
-
 
 export default Home;

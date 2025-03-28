@@ -1,14 +1,15 @@
-import React from "react";
-
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-md p-4 flex justify-between items-center">
-      <a href="#home"><h1 className="text-2xl font-bold">Four Fantastic's Blog</h1></a>
-      <ul className="flex space-x-4">
-        <li><a href="#home" className="hover:text-blue-600">Home</a></li>
-        <li><a href="#posts" className="hover:text-blue-600">Posts</a></li>
-        <li><a href="#subscribe" className="hover:text-blue-600">Subscribe</a></li>
-      </ul>
+    <nav className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+      <div className="container mx-auto flex justify-between items-center py-4 px-6">
+        <h1 className="text-2xl font-bold">The Four Fantastic's Blog</h1>
+        <ul className="flex space-x-6">
+          <li><a href="#Home" className="hover:text-blue-500">Home</a></li>
+          <li><a href="#FeaturedPosts" className="hover:text-blue-500">Post</a></li>
+          <li><a href="#About" className="hover:text-blue-500">About</a></li>
+          <li><a href="#Subscribe" className="hover:text-blue-500">Subscribe</a></li>
+        </ul>
+      </div>
     </nav>
   );
 };
